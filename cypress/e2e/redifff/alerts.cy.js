@@ -36,4 +36,10 @@ describe("ALERTS ", function () {
             cy.get('button[onclick="jsPrompt()"]').click()
         })
     })
+
+
+    it("girisj",function(){
+
+        cy.visit("www.amazon.in")
+    })
 })
