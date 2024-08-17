@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-08-17T04:25:12.272Z",
+    "end": "2024-08-17T04:25:49.881Z",
+    "duration": 37609,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "063cfaf8-2b4d-473f-9ea0-5f6a63105e16",
+      "title": "",
+      "fullFile": "cypress\\e2e\\redif\\testautomation.cy.js",
+      "file": "cypress\\e2e\\redif\\testautomation.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1efdead5-40fe-47b4-9572-ed20e25d8231",
+          "title": "drop down",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "clic ob ",
+              "fullTitle": "drop down clic ob ",
+              "timedOut": null,
+              "duration": 16417,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\e2e\\\\redif\\\\testautomation.cy.js\"\n}",
+              "code": "cy.visit(\"https://testautomationpractice.blogspot.com/\");\ncy.get(\"select[id='RESULT_RadioButton-3']\", {\n  force: true\n}).click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `select[id='RESULT_RadioButton-3']`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 5000ms: Expected to find element: `select[id='RESULT_RadioButton-3']`, but never found it.\n    at Context.eval (webpack://girish_cypress/./cypress/e2e/redif/testautomation.cy.js:6:11)",
+                "diff": null
+              },
+              "uuid": "4f3cff90-df07-43fe-a70b-20939d7d287a",
+              "parentUUID": "1efdead5-40fe-47b4-9572-ed20e25d8231",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "4f3cff90-df07-43fe-a70b-20939d7d287a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 16417,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
