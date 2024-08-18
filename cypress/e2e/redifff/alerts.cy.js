@@ -41,5 +41,6 @@ describe("ALERTS ", function () {
     it("girisj",function(){
 
         cy.visit("www.amazon.in")
+        
     })
 })
